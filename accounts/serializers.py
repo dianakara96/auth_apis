@@ -71,3 +71,8 @@ class PasswordResetSerializer(serializers.Serializer):
             email_template_name='registration/password_reset_email.html',
             request=request,
         )
+
+
+
+
+

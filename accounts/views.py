@@ -91,3 +91,9 @@ def password_reset_confirm(request, uidb64, token):
     else:
         messages.error(request, 'The password reset link is invalid or has expired.')
         return redirect('password_reset')  # Redirect to password reset request page
+
+# views.py
+# from django.shortcuts import render, redirect
+
+# def home(request):
+#     return render(request, 'home.html')

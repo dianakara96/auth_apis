@@ -14,3 +14,10 @@ urlpatterns = [
     path('reset/<uidb64>/<token>/', password_reset_confirm, name='password_reset_confirm'),
 
 ]
+# from django.urls import path
+# from .views import home
+
+# urlpatterns = [
+#     path('', home, name='home'),
+    
+# ] 
